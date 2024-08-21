@@ -2,7 +2,7 @@
 import 'package:my_dart_app/string_extentions.dart';
 
 void main(){
-  String name = "ShyamSundarKhatiwada";
+  String name = "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr.";
 
   print(name.nameLengthDouble);
   }
