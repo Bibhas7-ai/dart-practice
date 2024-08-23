@@ -22,3 +22,5 @@ void main(){
 //   print('Half of $num is ${num.half()}'); // Output: Half of 8.0 is 4.0
 //   print('Value as percentage: ${value.toPercentage()}'); // Output: Value as percentage: 75.0%
 // }
+
+

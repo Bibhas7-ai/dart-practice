@@ -69,19 +69,24 @@
 //   return null;
 // }
 
-void main() {
-  int? providedNumber = getNumber(); // This might return null
+// void main() {
+//   int? providedNumber = getNumber(); // This might return null
 
-  // Ensure the number is at least 0 if it's null
-  int displayNumber = providedNumber ?? 10;
+//   // Ensure the number is at least 0 if it's null
+//   int displayNumber = providedNumber ?? 10;
 
-  print(displayNumber);
-}
+//   print(displayNumber);
+// }
 
-int? getNumber() {
-  // Simulate a nullable return value
-  return null;
-}
+// int? getNumber() {
+//   // Simulate a nullable return value
+//   return null;
+// }
+
+
+
+
+
 
 
 
