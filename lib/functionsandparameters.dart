@@ -192,15 +192,86 @@ import 'dart:io';
 //  }
 
 
-void main() {
-  stdout.write('Enter an integer: ');
-  String? input = stdin.readLineSync();
+// void main() {
+//   stdout.write('Enter an integer: ');
+//   String? input = stdin.readLineSync();
   
-  if (input != null) {
-    int number = int.parse(input);
-    print('You entered: $number');
-  } else {
-    print('No input received.');
-  }
-}
+//   if (input != null) {
+//     int number = int.parse(input);
+//     print('You entered: $number');
+//   } else {
+//     print('No input received.');
+//   }
+// }
 
+//Write a program in Dart to print your own name using function.
+
+
+// void main(){
+//   name();
+// }
+
+// void name (){
+// stdout.write("Enter your name");
+// String? nam = stdin.readLineSync();
+// print('my name is $nam');
+// }
+
+
+//Write a program in Dart to print even numbers between intervals using function.
+
+// void main (){
+// odd();
+// }
+
+// void odd (){
+//   for(int i =1; i<=20;i++){
+//     if (i%2 == 0){
+//       print(i);
+
+//     }
+//   }
+    
+  
+// }
+
+//Create a function called greet that takes a name as an argument and prints a greeting message. For example, greet(“John”) should print “Hello, John”.
+
+
+// void main(){
+// greet();
+// }
+
+// greet(){
+// stdout.write("Enter your name");
+// String? name = stdin.readLineSync();
+// if (name == "Jhon"){
+//   print('hello $name');
+// }
+// else {
+//   print('hello, Oh sorry I was mistaken');
+// }
+
+// }
+
+
+
+//Write a program in Dart that generates random password.
+
+// import 'dart:math';
+
+// String generateRandomPassword(int length) {
+//   const String chars =
+//       'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#\$%^&*()_+[]{}|;:,.<>?';
+//   Random random = Random.secure();
+
+//   return List.generate(length, (index) {
+//     return chars[random.nextInt(chars.length)];
+//   }).join('');
+// }
+
+// void main() {
+//   int passwordLength = 12;  // You can change the length of the password
+//   String password = generateRandomPassword(passwordLength);
+//   print("Generated Password: $password");
+// }

@@ -130,3 +130,4 @@ void main() {
   // This will generate error
   //s.setClassNumber(13);
 }
+
