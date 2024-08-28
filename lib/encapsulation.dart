@@ -101,14 +101,14 @@ class Student {
   int? _classnumber;
 
   // Setter to update the value of name property
-  set name(String name) => this._name = name;
+  set name(String name) => _name = name;
 
   // Setter to update the value of classnumber property
   set classnumber(int classnumber) {
     if (classnumber <= 0 || classnumber > 12) {
       throw ('Classnumber must be between 1 and 12');
     }
-    this._classnumber = classnumber;
+   _classnumber = classnumber;
   }
 
   // Method to display the values of the properties
@@ -119,7 +119,7 @@ class Student {
 }
 void main() {
   // Create an object of Student class
-  Student s = new Student();
+  Student s = Student();
   // setting values to the object using setter
   s.name = "John Doe";
   s.classnumber = 12;

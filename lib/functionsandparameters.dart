@@ -1,4 +1,3 @@
-import 'dart:io';
 // void main()
 // {
 //  print(myfunc());
@@ -275,3 +274,110 @@ import 'dart:io';
 //   String password = generateRandomPassword(passwordLength);
 //   print("Generated Password: $password");
 // }
+
+
+//Write a program in Dart that find the area of a circle using function. Formula: pi * r * r
+// import 'dart:math';
+// void area(){
+// double r = 8 ;
+// double area = pi*r*r;
+// print("The area of the circle is $area");
+// }
+//  void circumference(){
+// double r = 8 ;
+// double cir = 2*pi*r;
+// print("The circumference of the circle is $cir");
+// }
+
+// void main(){
+//   area();
+//   circumference();
+// }
+
+
+//Write a program in Dart to reverse a String using function.
+
+// String reverseString(String input) {
+//   return input.split('').reversed.join('');
+// }
+
+// void main() {
+//   String original = "anjan";  // Replace with any string you want to reverse
+//   String reversed = reverseString(original);
+//   print("Original String: $original");
+//   print("Reversed String: $reversed");
+// }
+
+
+//Write a program in Dart to calculate power of a certain number. For e.g 5^3=125
+// import 'dart:math';
+// void power(){
+//   print("Enter an integer number:");
+//   String? input = stdin.readLineSync(); // Taking input as a string
+//   int number = int.parse(input!);
+//   int num2= 4;
+//   num result = pow(number,num2) ;
+//   print(result);
+// }
+// void main(){
+// power();
+
+// }
+
+
+//Write a function in Dart named add that takes two numbers as arguments and returns their sum.
+
+// void add(){
+//   print("Enter 1st number");
+//   String? input1 = stdin.readLineSync();
+//   int num1 = int.parse(input1!);
+
+//   print("Enter 2nd number");
+//   String? input2 = stdin.readLineSync();
+//   int num2 = int.parse(input2!);
+
+//   int result = num1+num2;
+//   print(result);
+  
+// }
+// void main(){
+  // add();
+// }
+
+
+
+//Write a function in Dart called maxNumber that takes three numbers as arguments and returns the largest number.
+// void maxNumber(){
+// print("Enter 1st number");
+//   String? input = stdin.readLineSync();
+//   int num = int.parse(input!);
+
+//   print("Enter 2nd number");
+//   String? input1 = stdin.readLineSync();
+//   int num1 = int.parse(input1!);
+
+//   print("Enter 3rd number");
+//   String? input2 = stdin.readLineSync();
+//   int num2 = int.parse(input2!);
+
+//   if(num > num1 && num> num2){
+//     print("The greatest number is $num"); 
+//   }
+//   else if( num1 > num2){
+//     print("The greatest number is $num1"); 
+//   }
+// else{
+//   print("The greatest number is $num2");
+// }
+
+// }
+
+// void main(){
+//   maxNumber();
+// }
+
+
+//Write a function in Dart called isEven that takes a number as an argument and returns True if the number is even, and False otherwise.
+
+//Write a function in Dart called createUser with parameters name, age, and isActive, where isActive has a default value of true.
+//Write a function in Dart called calculateArea that calculates the area of a rectangle. It should take length and width as arguments, with a default value of 1 for both. Formula: length * width.
